@@ -1,0 +1,10 @@
+fastapi[all]
+sqlmodel
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+google-generativeai
+loguru
+prometheus-fastapi-instrumentator
+pytest
+httpx
