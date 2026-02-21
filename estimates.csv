@@ -1,0 +1,9 @@
+Task,Estimated Hours,Actual Hours,Notes
+Project Initialization & Docker Setup,1,,Basic FastAPI scaffolding + Dockerfile
+Data Modeling & Auth (JWT),2.5,,User/Task entities & login logic
+CRUD Endpoints for Tasks,2,,"Create, Read, Update, Delete with status transitions "
+AI Integration (/ai/suggest),2,,Gemini API integration + deterministic stub
+Observability (Logs/Metrics),1.5,,Structured logging and Prometheus-style JSON
+Testing (Unit & Integration),2,,Pytest for happy paths and AI stub
+CI Pipeline & Cloud Deployment,2,,GitHub Actions and Render/Railway config
+Documentation & README,1,,Architecture notes and Swagger setup
