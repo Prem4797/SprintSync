@@ -5,7 +5,7 @@ Data Modeling & Auth (JWT),2.5,2,User/Task entities & login logic
 
 CRUD Endpoints for Tasks,2,2,"Create, Read, Update, Delete with status transitions"
 
-AI Integration (/ai/suggest),2,,Gemini API integration + deterministic stub
+AI Integration (/ai/suggest),2,3.5,Gemini API integration + deterministic stub
 
 Observability (Logs/Metrics),1.5,,Structured logging and Prometheus-style JSON
 

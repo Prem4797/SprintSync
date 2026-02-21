@@ -9,11 +9,12 @@ router = APIRouter(prefix="/auth", tags=["Authentication"])
 
 @router.post("/register")
 def register(user_data: User, session: Session = Depends(get_session)):
-    # Logic to check existence and hash password
+    user_data.id = None
     user_data.hashed_password = hash_password(user_data.hashed_password)
     session.add(user_data)
     session.commit()
-    return {"message": "User created"}
+    session.refresh(user_data)
+    return {"status": "success", "username": user_data.username}
 
 @router.post("/token")
 def login(form_data: OAuth2PasswordRequestForm = Depends(), session: Session = Depends(get_session)):
