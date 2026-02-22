@@ -9,7 +9,7 @@ AI Integration (/ai/suggest),2,3.5,Gemini API integration + deterministic stub
 
 Observability (Logs/Metrics),1.5,1.25, Structured logging and Prometheus-style JSON
 
-Testing (Unit & Integration),2,,Pytest for happy paths and AI stub
+Testing (Unit & Integration),2,1.5,Pytest for happy paths and AI stub
 
 CI Pipeline & Cloud Deployment,2,,GitHub Actions and Render config
 
