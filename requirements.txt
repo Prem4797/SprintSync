@@ -10,5 +10,3 @@ pytest
 httpx
 bcrypt==4.0.1
 google-genai
-loguru
-prometheus-fastapi-instrumentator
