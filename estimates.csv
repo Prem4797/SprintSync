@@ -11,6 +11,6 @@ Observability (Logs/Metrics),1.5,,Structured logging and Prometheus-style JSON
 
 Testing (Unit & Integration),2,,Pytest for happy paths and AI stub
 
-CI Pipeline & Cloud Deployment,2,,GitHub Actions and Render/Railway config
+CI Pipeline & Cloud Deployment,2,,GitHub Actions and Render config
 
 Documentation & README,1,,Architecture notes and Swagger setup
