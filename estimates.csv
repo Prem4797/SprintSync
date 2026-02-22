@@ -7,7 +7,7 @@ CRUD Endpoints for Tasks,2,2,"Create, Read, Update, Delete with status transitio
 
 AI Integration (/ai/suggest),2,3.5,Gemini API integration + deterministic stub
 
-Observability (Logs/Metrics),1.5,,Structured logging and Prometheus-style JSON
+Observability (Logs/Metrics),1.5,1.25, Structured logging and Prometheus-style JSON
 
 Testing (Unit & Integration),2,,Pytest for happy paths and AI stub
 
