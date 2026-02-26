@@ -7,7 +7,8 @@ A production-ready internal task management tool with AI-powered planning, built
 - **System Metrics:** https://sprintsync-api-gu5l.onrender.com/metrics
 
 ## Walkthrough Video
-- **Loom Link:** [INSERT_YOUR_LOOM_LINK_HERE]
+- **Loom Link:** https://www.loom.com/share/bd7fb5ac9e4840f9997e74d97d58bbcf (Part 1)
+                 https://www.loom.com/share/16e329ff0b08423b82f86c32523e856f (Part 2)
 
 ## Architecture & Reasoning
 This project follows a layered architecture to ensure maintainability and production resilience:
